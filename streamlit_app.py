@@ -1,6 +1,3 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+total # Breakdown Table df = pd.DataFrame({ Item: , Cost: }) st.write(df) st.bar_chart(df.set_index('Item')) # Pie chart st.subheader(Budget Split) pie_df = df.set_index('Item') fig = px.pie(pie_df.reset_index(), values='Cost', names='Item', title=Breakdown) st.plotly_chart(fig) # Timeline Tab st.tabs([st.Tab(Timeline, Basic Refresh takes 4 weeks. Mid-range: 8. High-end: 12. Add 1-2 weeks if electrical's involved.)]) # Change Log st.text_area(Change Orders, Log upgrades here-like 'added copper hood: +$8000') # Bid Simulator st.header(Bid Simulator) bids = { Contractor A: total 1.05, Contractor B: total, Contractor C: total 0.95 } bid_df = pd.DataFrame(list(bids.items()), columns=['Contractor', 'Bid']) st.write(bid_df) st.caption(Contractor B wins-right on budget.) # Footer st.markdown( ) st.caption
